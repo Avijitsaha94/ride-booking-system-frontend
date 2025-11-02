@@ -1,15 +1,16 @@
 export default function About() {
   return (
-    <>
-    <div className="p-4">
-        <h1> This is About component </h1>
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, qui
-eos. Architecto quisquam odit soluta fugit quos ab unde, voluptatem
-eos necessitatibus nesciunt, in neque consequatur adipisci velit
-accusantium illum.
-</p>
+    <div className="py-12 px-4 max-w-2xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">About Us</h1>
+      <p className="mb-4">Our mission is to deliver safe, efficient, and accessible ride booking experience for everyone in Bangladesh.</p>
+      <div>
+        <h2 className="font-semibold mb-2">Meet the Team</h2>
+        <ul className="list-disc pl-6">
+          <li>Avijit Saha - Project Lead</li>
+          <li>Rahim Driver - Senior Developer</li>
+          {/* More profiles */}
+        </ul>
+      </div>
     </div>
-    </>
   );
 }
